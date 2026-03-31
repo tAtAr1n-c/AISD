@@ -8,7 +8,7 @@ public class DeliveryPlannerIntDemo {
     public static void main(String[] args) {
         // Задача: в пункте доставки выбираем следующий заказ по минимальному ETA (в минутах).
         // Чем меньше ETA, тем раньше заказ должен уйти в работу.
-        FibonacciHeapInt heap = new FibonacciHeapInt();
+        FibonacciHeap heap = new FibonacciHeap();
 
         // 1) Добавление заказов (ETA в минутах)
         int[] etas = {35, 12, 28, 7, 19, 42};
